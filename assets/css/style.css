@@ -217,3 +217,26 @@ header .line {
     background-size: cover;
     background-position: center;
 }
+
+.four--area {
+    display: grid;
+    grid-template-columns: 800px 1fr;
+    background-color: #E8E9EE;
+}
+
+.four-area--content {
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+.four-area--text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.four-area--img {
+    background-image: url("../images/bg3.jpg");
+    background-position: left;
+}
