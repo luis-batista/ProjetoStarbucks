@@ -191,3 +191,29 @@ header .line {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
 }
+
+.third--area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.t-area--content {
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    background-image: url("../images/bg2.jpg");
+    background-size: cover;
+    background-position: left;
+}
+
+.t-area--text {
+    padding-bottom: 50px; 
+    line-height: 25px;
+}
+
+.t-area--img {
+    background-image: url("../images/f5.jpg");
+    background-size: cover;
+    background-position: center;
+}
